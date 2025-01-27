@@ -69,3 +69,66 @@ ul {
 }
 
 /* FINE STILE MAIN */
+
+/* INIZIO STILE TABELLA */
+
+table {
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-spacing: none;
+    table-layout: fixed;
+}
+
+.white_row {
+    background-color: #20a9e5;
+    color: white;
+    font-weight: bold;
+}
+
+.azzurro {
+    background-color: #b1e5f2;
+    height: 50px;
+}
+
+.white {
+    height: 50px;
+}
+
+/* FINE STILE TABELLA */
+
+
+.margin_top {
+    margin-top: 20px;
+}
+
+.title_text {
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.img_pc {
+    width: 200px;
+    height: 150px;
+    color: white;
+    background-image: url(../img/graph.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.img_code {
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/monitor.jpg);
+    background-position: cover;
+    background-size: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.img_text {
+    font-weight: bold;
+    padding: 10px;
+
+}
