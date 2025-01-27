@@ -1,17 +1,56 @@
 * {
-    margin: 0;
-    padding:0px;
+    padding:0;
+    margin:0;
 }
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/******** INIZIO STILE HEADER */
 
  header  {
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
-    background-size: 400px;
-    height: 100px;
+    padding: 10px;
 }
 
 .logo {
     width: 200px;
-    margin-top: 30px;
-    margin-left: 10px;
 }
+
+/******** FINE STILE HEADER */
+
+
+/***** INIZIO STILE MAIN*/
+
+h1 {
+    padding-top: 10px;
+}
+
+.autore {
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nome_autore {
+    color: #4ea0ff;
+}
+
+.data_documento {
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;     
+}
+
+.main_img {
+    padding-top:20px;
+}
+
+.testo-articolo {
+    padding-top:20px;
+}
+
+/* FINE STILE MAIN */
